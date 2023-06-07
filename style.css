@@ -1,0 +1,20 @@
+body{
+ margin: 0;
+ background-image: url(image/Geeknius\ Dark.png);
+}
+
+#container{
+ min-height: 100vh;
+ display: flex;
+}
+
+#component{
+ width: min(100%, 6536);
+}
+#barre{
+  
+}
+
+#barre p{
+  color:white;
+}
