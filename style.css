@@ -1,20 +1,155 @@
+:root{
+  --primary-color: white;
+}
+
 body{
  margin: 0;
- background-image: url(image/Geeknius\ Dark.png);
+ background-image: url(image/backgroud.jpg);
 }
 
 #container{
  min-height: 100vh;
  display: flex;
+ box-sizing: border-box;
 }
 
 #component{
- width: min(100%, 6536);
+ width: min(1860, 6536);
+ box-sizing: border-box;
 }
 #barre{
-  
+  display: flex;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 #barre p{
   color:white;
+  margin: 0;
+}
+
+#barre #nom{
+  font: 2rem 'roboto';
+  font-weight: black;
+  margin-left: 3.875rem;
+  margin-top: 1.375rem;
+}
+
+#barre #numb{
+  font: 1rem 'inter';
+  margin-left: 2.875rem;
+  margin-top: 1.875rem;
+}
+
+#numb img{
+  margin-right: 9.75px;
+}
+
+#mail img{
+  margin-right: 13px;
+}
+
+#barre #mail{
+  font: 1rem 'inter';
+  margin-left: 2.0519rem;
+  margin-top: 1.875rem;
+}
+
+#barre #menu{
+  margin-left: 70.1875rem;
+  margin-top: 1.875rem;
+}
+
+#hola{
+  margin-left: 388px;
+  color: var(--primary-color);
+  box-sizing: border-box;
+  display: block;
+}
+
+#hola p{
+  margin: 0;
+}
+
+#hola h1{
+  margin: 0;
+  font: 4.5rem 'inter';
+  font-weight: 700;
+  line-height: 6.3125rem;
+  color: #F87F28;
+}
+
+#hola ul{
+  margin: 0;
+}
+
+#hola #p1{
+ font: 0.875rem 'roboto';
+ font-weight: 400;
+ line-height: 1.5rem;
+ letter-spacing: 3px;
+ text-transform:uppercase;
+ margin-left: 6px;
+ margin-top: 6.25rem;
+}
+
+#hola #p2{
+  font: 4.5rem 'inter';
+  font-weight: 400;
+  line-height: 6.3125rem;
+  margin-top: 2.0625rem;
+  letter-spacing: -3px;
+}
+
+ul{
+  padding: 0;
+}
+
+#space{
+ margin-top: 24px;
+ 
+}
+
+#hola ul{
+  font: 1rem 'inter';
+  font-weight: 400;
+  line-height: 1.5rem;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+#port{
+  background-color: #BB2323;
+  padding: 0.75rem 2rem 0.75rem 2rem;
+  border-radius: 3.125rem;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font: 0.875rem 'roboto';
+  font-weight: 400;
+  line-height: 1.4875rem;
+  margin-top: 60px;
+}
+
+#contact{
+  padding: 0.75rem 2rem 0.75rem 2rem;
+  border-radius: 50px;
+  color: #F87F28;
+  border: 2px solid #F87F28;
+  text-decoration: none;
+  font: 0.875rem 'roboto';
+  font-weight: 400;
+  line-height: 1.4875rem;
+  justify-items: center;
+  margin-left: 23px;
+  margin-top: 60px;
+}
+
+#presentation{
+  display: flex;
+}
+
+.photo img{
+  margin-top: 96px;
+  margin-left: 112px;
 }
