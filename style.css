@@ -153,3 +153,31 @@ ul{
   margin-top: 96px;
   margin-left: 112px;
 }
+
+#logo{
+ margin-left: 323px;
+ box-sizing: border-box;
+}
+#ubi{
+  margin-left: 71.21px;
+}
+
+#micro{
+  margin-left: 11.5px;
+}
+
+#elec{
+  margin-left: 24.15px;
+}
+
+#capcom{
+  margin-left: 31.6px;
+}
+
+#bethe{
+  margin-left: 43.6px;
+}
+
+#logo h2{
+  text-align: center;
+}
