@@ -43,10 +43,12 @@ body{
 
 #numb img{
   margin-right: 9.75px;
+  vertical-align:middle;
 }
 
 #mail img{
   margin-right: 13px;
+  vertical-align: middle;
 }
 
 #barre #mail{
@@ -128,56 +130,241 @@ ul{
   font: 0.875rem 'roboto';
   font-weight: 400;
   line-height: 1.4875rem;
-  margin-top: 60px;
+  margin-top: 3.75rem;
+  cursor: pointer;
 }
 
 #contact{
   padding: 0.75rem 2rem 0.75rem 2rem;
-  border-radius: 50px;
+  border-radius: 3.125rem;
   color: #F87F28;
-  border: 2px solid #F87F28;
+  border: 0.125rem solid #F87F28;
   text-decoration: none;
   font: 0.875rem 'roboto';
   font-weight: 400;
   line-height: 1.4875rem;
   justify-items: center;
-  margin-left: 23px;
-  margin-top: 60px;
+  margin-left: 1.4375rem;
+  margin-top: 3.75rem;
 }
 
 #presentation{
   display: flex;
+  box-sizing: border-box;
 }
 
 .photo img{
-  margin-top: 96px;
-  margin-left: 112px;
+  margin-top: 6rem;
+  margin-left: 7rem;
 }
 
 #logo{
- margin-left: 323px;
  box-sizing: border-box;
+ margin-top: 5rem;
 }
-#ubi{
-  margin-left: 71.21px;
-}
-
-#micro{
-  margin-left: 11.5px;
+#logo p{
+  margin:0;
 }
 
-#elec{
-  margin-left: 24.15px;
-}
-
-#capcom{
-  margin-left: 31.6px;
-}
-
-#bethe{
-  margin-left: 43.6px;
+#glogo{
+ margin-left: 20.25rem;
 }
 
 #logo h2{
   text-align: center;
+  font: 0.75rem 'roboto';
+  font-weight: 400;
+  line-height: 1.92rem;
+  letter-spacing: 0.1875rem;
+  text-transform: uppercase;
+  color: #BFBFBF;
+  margin-left: 3.125rem;
+  margin: 0;
+}
+
+.pagedeux{
+ margin-top: 212px;
+ box-sizing: border-box;
+ margin: 0;
+ color: white;
+}
+
+.pagedeux p{
+  margin: 0;
+}
+
+#comp{
+  margin-left: 50.3125rem;
+  margin-top: 13.4375rem;
+  font: 2.25rem 'inter';
+  line-height: 3.75rem;
+  font-weight: 600;
+}
+
+#text{
+  margin-left: 47.6875rem;
+  font: 0.875rem 'inter';
+  line-height: 1.5rem;
+  text-align: left;
+  font-weight: 400;
+}
+
+#text2{
+  margin-left: 48.25rem;
+  font: 0.875rem 'inter';
+  line-height: 1.5rem;
+  text-align: left;
+  font-weight: 400;
+}
+
+.tgml{
+  display: flex;
+  margin: 0;
+  margin-left: 25.1875rem;
+  margin-top: 7.25rem;
+}
+
+#g{
+  margin-left: 230px;
+}
+
+#m{
+  margin-left: 230px;
+}
+
+#l{
+  margin-left: 230px;
+}
+
+.ecrit{
+  display: flex;
+}
+
+.ecrit ul{
+  list-style: none;
+  margin: 0;
+}
+
+.ecrit h1{
+margin: 0;
+font: 1rem 'inter';
+font-weight: 600;
+line-height: 1.4rem;
+}
+
+.ecrit li{
+  line-height: 1.5rem;
+}
+
+#marge{
+  margin-top: 16px;
+}
+#technique{
+margin-left: 428px;
+}
+
+#gestion{
+margin-left: 185px;
+}
+
+#management{
+margin-left: 180px;
+}
+
+#langues{
+margin-left: 170px;
+}
+
+.page3{
+  display: flex;
+  padding: 0px 350px 0px 350px;
+}
+
+ .portfolio{
+  color: var(--primary-color);
+  box-sizing: border-box;
+}
+
+
+.portfolio h1{
+  font: 2.25rem "inter";
+  font-weight: 600;
+  line-height: 3.75rem;
+  margin-top: 19.375rem;
+  margin-left: 2.1875rem;
+}
+
+.portfolio p{
+  font: 0.875rem "inter";
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-top: 2.1875rem;
+  margin-left: 2.1875rem;
+}
+
+.galerie{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 324px;
+  box-sizing: border-box;
+  column-gap: 24px;
+  row-gap: 24px;
+  margin-left: 50px;
+} 
+    /* changement de page */
+.page4{
+  display: flex;
+  padding-top: 245px;
+  padding-right: 360px;
+  color: var(--primary-color);
+}
+
+.experience{
+  box-sizing: border-box;
+  margin-left: 390px;
+}
+
+.experience h1{
+  font: 2.25rem "inter";
+  font-weight: 600;
+  line-height: 3.75rem;
+}
+
+#description{
+   font: 0.875rem "inter";
+   font-weight: 400;
+   line-height: 1.5rem;
+   margin-top: 47px;
+   margin-bottom: 30px;
+   width: 242px;
+}
+
+#download a{
+  font: 0.875rem "inter";
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 3.125rem;
+  background-color: #BB2323;
+  padding: 0.75rem 2rem 0.75rem 2rem;
+}
+
+#information{
+  box-sizing: border-box;
+  margin-left: 124px;
+}
+
+#information img{
+  margin-right: 27px;
+  vertical-align: middle;
+}
+
+#information p{
+  margin: 0;
+  margin-left: 400px;
+}
+
+#information h1{
+  margin: 0;
 }
