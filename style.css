@@ -676,8 +676,9 @@ margin-left: 170px;
 #page6{
   padding-left: 502px;
   padding-top: 288px;
-  padding-right: 500px;
+  padding-right: 511px;
   color: var(--primary-color);
+  box-sizing: border-box;
 }
 
 #page6 h1{
@@ -706,17 +707,253 @@ margin-left: 170px;
 
 #dessous #saul{
   font: 18px 'inter';
-  font-weight: 700;  
+  font-weight: 700; 
+  text-transform: capitalize; 
 }
 
 #dessous #ceo{
   font: 15px 'inter';
   font-weight: 400;
   letter-spacing: 2px;
+  padding-bottom: 187px;
+  text-transform: capitalize; 
 }
 
 #frame img{
   position: relative;
   left: 44px;
   bottom: 20px;
+}
+
+#page7{
+  display: flex;
+  padding-right: 430px;
+  box-sizing: border-box; 
+}
+
+#page7 h1{
+  color: white;
+  margin: 0;
+  padding-top: 128px;
+}
+
+#page7 p{
+  margin: 0;
+}
+
+#page7 h3{
+  margin: 0;
+  color: white;
+}
+
+#page7 h1{
+  font: 36px "inter";
+  font-weight: 600;
+  line-height: 60px;
+  text-transform: capitalize;
+  padding-right: 90px;
+  padding-left: 383px;
+
+}
+
+.fulldate{
+  color: #F87F28;
+  font: 12px "Roboto";
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+#actu1 h3{
+  font: 18px "inter";
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 13px;
+}
+
+#omote{
+  font: 14px "inter";
+  font-weight: 400;
+  line-height: 24px;
+  color: white; 
+}
+
+#omote2{
+  font: 14px "inter";
+  font-weight: 400;
+  line-height: 24px;
+  color: white;
+  padding-bottom: 39.32px;
+}
+
+#actu2 h3{
+  font: 18px "inter";
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: capitalize;
+  padding-bottom: 12px;
+}
+
+#forest{
+  font: 14px "inter";
+  font-weight: 400;
+  line-height: 24px;
+  color: white;
+}
+
+#forest2{
+  font: 14px "inter";
+  font-weight: 400;
+  line-height: 24px;
+  color: white;
+  padding-bottom: 38.91px;
+}
+
+#actu3 h3{
+  font: 26px "inter";
+  font-weight: 700;
+  padding-bottom: 13px;
+}
+
+#atoms{
+  font: 14px "inter";
+  font-weight: 400;
+  color: white;
+}
+
+#atoms2{
+  font: 14px "inter";
+  font-weight: 400;
+  color: white;
+}
+
+#actugen{
+  padding-top: 145px;
+}
+
+/* changement de page */
+
+#page8{
+  width: max(1112);
+  margin: 0;
+}
+
+#contacte{
+  padding-left: 405px;
+  padding-top: 390px;
+}
+
+#contacte h1{
+  font: 36px "inter";
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #BFBFBF;
+  margin: 0;
+  padding-bottom: 26px;
+}
+
+#contacte p{
+  margin: 0;
+}
+
+#maps{
+  font: 14px "inter";
+  font-weight: 500;
+  line-height: 24px;
+  color: #F87F28;
+  text-transform: capitalize;
+  padding-bottom: 6px;
+}
+
+#maps img{
+  vertical-align: middle;
+  padding-right: 24px;
+}
+
+#rue{
+  font: 24px "inter";
+  font-weight: 500;
+  line-height: 24px;
+  color: white;
+  padding-bottom: 58px;
+}
+
+#mail{
+  font: 14px "inter";
+  font-weight: 500;
+  line-height: 24px;
+  color: #F87F28;
+  text-transform: capitalize;
+}
+
+#mail img{
+ vertical-align: middle;
+ padding-right: 15px;
+}
+
+#adresse{
+  font: 24px "inter";
+  font-weight: 500;
+  line-height: 24px;
+  color: white;
+  padding-bottom: 58px;
+  
+}
+
+#teleph{
+  font: 14px "inter";
+  font-weight: 500;
+  line-height: 24px;
+  color: #F87F28;
+  text-transform: capitalize;
+}
+
+#teleph img{
+  vertical-align: middle;
+  padding-right: 24px;
+}
+
+#teltel{
+  font: 24px "inter";
+  font-weight: 500;
+  line-height: 24px;
+  color: white;
+}
+
+#formulaire{
+  display: flex;
+}
+
+#contactez h6{
+  font: 12px "roboto";
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+}
+
+#utilisation{
+  font: 24px "inter";
+  font-weight: 500;
+  line-height: 32px;
+  color: white;
+}
+
+#cras{
+  font: 14px "inter";
+  font-weight: 400;
+  line-height: 24px;
+  color: white;
+}
+
+#contactez span{
+  font: 14px "roboto";
+  font-weight: 400;
+  line-height: 24px;
+  color: #E5E9F1;
+}
+
+#contactez{
+  padding-top: 360px;
 }
