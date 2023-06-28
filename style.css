@@ -53,12 +53,12 @@ body {
   vertical-align: middle;
 }
 
-#mail img {
+#mail1 img {
   margin-right: 13px;
   vertical-align: middle;
 }
 
-#barre #mail {
+#barre #mail1 {
   font: 1rem 'inter';
   margin-left: 2.0519rem;
   margin-top: 1.875rem;
@@ -917,7 +917,7 @@ ul {
   padding-bottom: 58px;
 }
 
-#mail1 {
+#mail2 {
   font: 14px "inter";
   font-weight: 500;
   line-height: 24px;
@@ -925,7 +925,7 @@ ul {
   text-transform: capitalize;
 }
 
-#mail1 img {
+#mail2 img {
   vertical-align: middle;
   padding-right: 15px;
 }
