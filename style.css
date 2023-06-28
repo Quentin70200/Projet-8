@@ -917,7 +917,7 @@ ul {
   padding-bottom: 58px;
 }
 
-#mail {
+#mail1 {
   font: 14px "inter";
   font-weight: 500;
   line-height: 24px;
@@ -925,7 +925,7 @@ ul {
   text-transform: capitalize;
 }
 
-#mail img {
+#mail1 img {
   vertical-align: middle;
   padding-right: 15px;
 }
@@ -1117,7 +1117,7 @@ ul {
 
   }
 
-  #barre #mail {
+  #barre #mail1 {
     display: none;
   }
 
