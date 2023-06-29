@@ -793,11 +793,12 @@ ul {
   padding-bottom: 10px;
 }
 
-#actu1 h3 {
+#actu1 h2 {
   font: 18px "inter";
   font-weight: 700;
   text-transform: uppercase;
   padding-bottom: 13px;
+  color: white;
 }
 
 #omote {
@@ -967,7 +968,7 @@ ul {
   padding-right: 364px;
 }
 
-#contactez h6 {
+#contactez h2 {
   font: 12px "roboto";
   font-weight: 700;
   line-height: 17px;
@@ -1184,6 +1185,11 @@ ul {
   #comp {
     margin: 0;
     padding-left: 28px;
+  }
+
+  #pagedeux img{
+    width: 100px;
+    height: 100px;
   }
 
   #text {
